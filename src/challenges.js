@@ -39,22 +39,21 @@ function footballPoints(wins, ties) {
 }
 
 // Desafio 6
-// Para achar o maior valor, o uso do primeiro for/in e 
-//depois para contar o segundo for/in.)
-function highestCount(arrayNumber) {
-  let highestNumber = arrayNumber[0];
-  let counting = 0;
-  for (let keys in arrayNumber) {
-    if (arrayNumber[keys] > highestNumber) {
-      highestNumber = number[keys]
-    } 
-  }
-  for (let key in arrayNumber) {
-    if (arrayNumber[key] === highestNumber) {
-      counting += 1;
+
+function highestCount(numeros) {
+  let maiorNumero = numeros[0];
+  let contador = 0;
+  for (keys in numeros) {
+    if (numeros[keys] > maiorNumero) {
+      maiorNumero = numeros[keys]
     }
   }
-  return counting;
+  for (key in numeros) {
+    if (numeros[key] === maiorNumero) {
+      contador += 1
+    }
+  }
+  return contador;
 }
 
 // Desafio 7
