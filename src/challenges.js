@@ -41,7 +41,6 @@ function footballPoints(wins, ties) {
 // Desafio 6
 // Para achar o maior valor, o uso do primeiro for/in e 
 //depois para contar o segundo for/in.)
-let arrayNumber = [9, 1, 2, 3, 9, 5, 7];
 function highestCount(arrayNumber) {
   let highestNumber = arrayNumber[0];
   let counting = 0;
@@ -57,7 +56,6 @@ function highestCount(arrayNumber) {
   }
   return counting;
 }
-console.log(highestCount(arrayNumber));
 
 // Desafio 7
 function catAndMouse() {
