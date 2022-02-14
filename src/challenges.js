@@ -16,12 +16,14 @@ function calcArea(base, height) {
 }
 
 // Desafio 3
+// Para separar a frase e ou as strings: .split()
 function splitSentence(text) {
     let splitText = text.split(' ');
   return splitText;
 }
 
 // Desafio 4
+// Para concatenar : `$ {} , ${}`
 function concatName(names) {
     let finalName = names.length - 1;
   return `${names[finalName]}, ${names[0]}`;
@@ -37,9 +39,25 @@ function footballPoints(wins, ties) {
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+// Para achar o maior valor, o uso do primeiro for/in e 
+//depois para contar o segundo for/in.)
+let arrayNumber = [9, 1, 2, 3, 9, 5, 7];
+function highestCount(arrayNumber) {
+  let highestNumber = arrayNumber[0];
+  let counting = 0;
+  for (let keys in arrayNumber) {
+    if (arrayNumber[keys] > highestNumber) {
+      highestNumber = number[keys]
+    } 
+  }
+  for (let key in arrayNumber) {
+    if (arrayNumber[key] === highestNumber) {
+      counting += 1;
+    }
+  }
+  return counting;
 }
+console.log(highestCount(arrayNumber));
 
 // Desafio 7
 function catAndMouse() {
