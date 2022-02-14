@@ -1,6 +1,12 @@
 // Desafio 1
-function compareTrue() {
-  // seu código aqui
+let value1 = 5;
+let value2 = 10;
+function compareTrue(value1, value2) {
+  if (value1 > 0 && value2 > 0){
+  return true;
+  }else {
+    return false;
+  }
 }
 
 // Desafio 2
