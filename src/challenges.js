@@ -1,12 +1,11 @@
 // Desafio 1
-let value1 = 5;
-let value2 = 10;
+
 function compareTrue(value1, value2) {
   if (value1 > 0 && value2 > 0){
   return true;
   }else {
     return false;
-  };
+  }
 }
 
 // Desafio 2
@@ -17,8 +16,9 @@ function calcArea(base, height) {
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(text) {
+    let splitText = text.split(' ');
+  return splitText;
 }
 
 // Desafio 4
